@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://dbpostgresql:5432/mydb
+    username: postgres
+    password: password
+  jpa:
+    database: POSTGRESQL
+flyway:
+  url: jdbc:mysql://dbpostgresql:3306/mydb
+  schemas: public
+  user: postgres
+  password: password
